@@ -5,41 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarea</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav id="inicio">
         <a href="Tarea.html">
             <img class="logonav" src="Logo.jpg" alt="La Taberna de Rodri">
         </a>
-            <ul>
-                <li>
+            <ul class="navul">
+                <li class="navli">
                     <a href="#inicio">Inicio</a>
                 </li>
-                <li>
+                <li class="navli">
                     <a href="#nos">Nosotros</a>
                 </li>
-                <li>
+                <li class="navli">
                     <a href="#combos">Combos</a>
                 </li>
-                <li>
+                <li class="navli">
                     <a href="#contact">Contacto</a>
                 </li>
             </ul>
     </nav>
-    <br> 
         <div id="nos">
-            <h1>
+            <img class="imghero" src="img_cerveza.jpg" alt="Foto de cerveza" width="400px" height="300px">
+            <h1 class="h1">
                 LA TABERNA DE RODRI
             </h1>
-            <img class="imghero" src="img_cerveza.jpg" alt="Foto de cerveza" width="500px" height="400px">
-            <p>
-                Desde 1995 la taberna de Rodri, ha servido comidas y bebidas nefastas dea.
+            
+            <p class="about">
+                    Desde 1995 la taberna de Rodri, ha servido comidas y bebidas nefastas dea.
             </p>
         </div>
     <section id="combos">
-        <h2>
-            NUESTROS COMBOS
-        </h2>
+        <div>
+            <h2 class="h2combo">
+                NUESTROS COMBOS
+            </h2>
+        </div> 
+        <br>
             <article>
                 <img src="combo1.jpg" alt="Combo 1" height="200px" width="200px">
                 <p> 
@@ -68,7 +72,7 @@
     <br>
         <div id="contact">
             <form>
-                <h2>CONTACTO</h2>
+                <h2 class="h2contact">CONTACTO</h2>
                 <label for="name"></label>
                 <input id="name" type="text" placeholder="Nombre y Apellido">
                 <br>

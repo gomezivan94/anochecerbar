@@ -1,0 +1,87 @@
+ul li a{
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: none;
+    border: 1px black solid;
+    padding: 5px;
+    background-color: coral;
+    color: brown;
+    font-weight: bold;
+    
+    
+}
+.logonav{
+    float: left;
+}
+#inicio{
+    background-color: lightcoral;
+    height: 200px;
+}
+
+.navul{
+    list-style-type: none;
+    padding-top: 50px;
+    
+}
+ul li{
+    margin: 10px;
+    display: inline-block;
+    padding-top: 90px;
+    padding-left: 45px;
+}
+.h1{
+    text-decoration: underline;
+    color: brown;
+    font-style: italic;
+    text-align: center;
+}
+.imghero{
+    float: left;
+}
+#combos{
+    display: inline-flex;
+    background-color: coral;
+    padding: 10px;
+}
+.h2combo{
+    text-align: center;
+    display: block;
+    color: brown;
+    font-weight: bold;
+    flex-direction:row
+}
+article{
+    border: 2px black solid;
+}
+article img{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+#contact{
+    background-color: coral;
+}
+.h2contact{
+    text-align: left;
+    color: brown;
+    text-decoration: underline brown;
+}
+form button{
+    background-color: darkgoldenrod;
+    color: black;
+    font-weight: bold;
+}
+form{
+    padding: 50px;
+}
+.about{
+    padding: auto 0px;
+    text-align: center;
+    align-items: center;
+}
+#nos{
+    background-image: url("Title\ \(2\).jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 15px;
+}
