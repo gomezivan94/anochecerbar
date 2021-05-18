@@ -1,6 +1,11 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
+
     background-image: url("fondobody.jpg");
     background-position: center;
+    
 }
 
 ul li a{
