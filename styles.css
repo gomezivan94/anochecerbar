@@ -5,6 +5,7 @@ body{
 
     background-image: url("https://media.istockphoto.com/photos/empty-wooden-table-top-with-blur-coffee-shop-or-restaurant-interior-picture-id914940152?k=6&m=914940152&s=612x612&w=0&h=_M3oh3YwJQ5WXIpaltchm3n7579UblLP5w6oh9A1MWI=");
     background-size: cover;
+    background-attachment: fixed;
     
 }
 ul li a{
@@ -155,6 +156,7 @@ footer{
     padding-bottom: 40px;
     height: max-content;
     background-color: rgb(240, 128, 128);
+    margin: 0px 10%;
 }
 .footerimg{
    float: left;
