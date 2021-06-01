@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="favicon.png" sizes="16x16">
     <link rel="icon" type="image/png" href="favicon.png" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
     <title>Anochecer Bar</title>
 </head>
 <body>
@@ -17,36 +19,42 @@
         <div id="navitems">
             <ul class="navitems">
                 <li>
-                    <a href="#">Conocenos</a>
+                    <a href="#hero">Conocenos</a>
                 </li>
                 <li>
-                    <a href="#">Comidas</a>
+                    <a href="#comidas">Comidas</a>
                 </li>
                 <li>
-                    <a href="#">Comentarios</a>
+                    <a href="#commit">Comentarios</a>
                 </li>
                 <li>
-                    <a href="#">Contacto</a>
+                    <a target="_blank" href="contact.html">Contacto</a>
                 </li>
             </ul>
         </div>
     </nav>
     <div id="hero">
-        <h1>Conocenos</h1>
+        <h1 class="h1">Conocenos</h1>
         <div class="hero">
-            <div>
-                <img class="imghero" src="https://as01.epimg.net/argentina/imagenes/2020/08/29/actualidad/1598712561_382914_1598712638_noticia_normal_recorte1.jpg" alt="Conocenos">
+            <div class="imghero">
+                <img width="100%" height="100%" src="https://as01.epimg.net/argentina/imagenes/2020/08/29/actualidad/1598712561_382914_1598712638_noticia_normal_recorte1.jpg" alt="Conocenos" style="border-radius: 10px;">
             </div>
-            <div>
-                <h2>Nuestra Cerveza</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, laboriosam maxime dicta voluptatem delectus consectetur corrupti rem nostrum, nobis iste vitae id sapiente dolorum, odio eos nesciunt impedit repellat mollitia.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sunt porro tempora natus amet blanditiis laboriosam nulla, architecto quidem explicabo officiis quae cum soluta sed molestiae saepe a sint omnis?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi perferendis minus, doloremque soluta quam ut eaque impedit illo quasi, voluptates inventore repudiandae harum ex magnam corrupti laudantium obcaecati libero minima.</p>
+            <div class="deshero">
+                <div>
+                    <h2>Nuestra Cerveza</h2>
+                </div>
+                <div>
+                    <p> Nuestra Familia
+
+                    Más de 80 apasionados por la cerveza artesanal que se esmeran día a día para hacer las cervezas más ricas, mejorar la calidad, ser innovadores, creativos y brindarle a nuestros clientes más de lo que esperan. 
+                    
+                    Salud!</p>
+                </div>
             </div>
         </div>
     </div>
     <div id="comidas">
-        <h1>Comidas</h1>
+        <h1 class="h1">Comidas</h1>
             <div id="secciones">
                 <div class="card">
                     <img class="comboimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNtSyYatTf-Z8OlRF3n3i3ynP0-L__Bfh-8w&usqp=CAU" alt="Combo" style="width:100%">
@@ -79,28 +87,30 @@
         </div>
     </div>
     <div id="commit">
-        <div>
-            <h1>Comentarios</h1>
+        <h1 class="h1">Comentarios</h1>
+        <div class="users">
+            <div class="user">
+                <img class="userimg" src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar" style="width:100%">
+                <div class="container">
+                <h4><b>Pamela</b></h4>
+                <p>"Mi lugar preferido"</p>
+                </div>
+            </div>
+            <div class="user">
+                <img class="userimg" src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:100%">
+                <div class="container">
+                <h4><b>Rodri</b></h4>
+                <p>"La mejor cerveza!"</p>
+                </div>
+            </div>
+            <div class="user">
+                <img class="userimg" src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:100%">
+                <div class="container">
+                <h4><b>Lucas</b></h4>
+                <p>"Muy buena comida"</p>
+                </div>
+            </div>
         </div>
-        <div id="comentarios">
-            <ul>
-                <li>
-                    <p>
-                        "Me encantó, muy bueno" - <span style="font-weight: bold;">Maria</span> 
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        "Recomiendo!!" - <span style="font-weight: bold;">Rodrigo</span>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        "La mejor cerveza!" - <span style="font-weight: bold;">Iván</span>
-                    </p>
-                </li>
-            </ul>
-        </div>
-    </div>
+    </div>    
 </body>
 </html>

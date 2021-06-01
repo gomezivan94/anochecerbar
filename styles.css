@@ -1,36 +1,41 @@
 body{
     padding: 1% 10%;
-    background: url(fondo.jpg);
+    background: url(https://static6.depositphotos.com/1126698/615/i/600/depositphotos_6150600-stock-photo-old-grunge-wood-panels.jpg);
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
 }
 nav{
     text-align: center;
-    background: rgba(255,255,255,0.3);
-    background: linear-gradient(90deg,rgba(255,255,255,0.3) 25%, rgba(255,214,0,0.3) 100%);
+    background: rgba(255,255,255,1);
+    background: linear-gradient(90deg,rgba(255,255,255,1) 25%, rgba(255,214,0,1) 100%);
     border-radius: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    text-decoration: none;
     width: 100%;
-    height: max-content;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    left: 0;
 }
 #logo{
+    margin-left: 40px;
     width: 50%;
-    padding-left: 5%;
     display: flex;
     justify-content: flex-start;
 }
 .logo{
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
+    font-family: rye;
+    font-size: 42px;
+    font-weight: bold;
 }
 #navitems{
     align-items: flex-end;
     padding-right: 20px;
-    width: 50%;
+    width: 100%;
     height: 100%;
 }
 .navitems{
@@ -38,13 +43,19 @@ nav{
     flex-direction: row;
     list-style: none;
     width: 100%;
+    
 }
 .navitems li{
     flex: 1;
 }
 .navitems li a{
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
+    transition-delay: 200ms;
+}
+.navitems li a:hover{
+    color: rgb(214, 187, 33);
+    transition-duration: 500ms;
 }
 #hero{
     color: white;
@@ -53,15 +64,33 @@ nav{
     text-align: center;
     border: 1px rgb(0, 0, 0) solid;
     border-radius: 10px;
+    padding: 2% 2% 4% 2%;
+    margin-top: 12%;
+    width: 100%;
+
+}
+.h1{
+    font-family: rye;
+    font-size: 38px;
     padding: 2%;
-    margin-top: 1%;
 }
 .hero{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 .imghero{
+    width: 60%;
     border-radius: 10px;
+}
+.deshero{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    min-height: 100%;
+    padding: 5px;
 }
 #comidas{
     color: white;
@@ -70,8 +99,10 @@ nav{
     text-align: center;
     border: 1px rgb(0, 0, 0) solid;
     border-radius: 10px;
-    padding: 2%;
-    margin-top: 1%;
+    padding: 2% 2% 4% 2%;
+    margin-top: 2%;
+    width: 100%;
+
 }
 #secciones{
     width: 100%;
@@ -83,92 +114,78 @@ nav{
     background-color: hsla(0, 0%, 100%, 0.3);
     margin: 0.5%;
     width: 25%;
-    padding: 0 0 20px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    overflow: hidden;
-}
-.comboimg{
-    border-radius: 10px;
-    padding-top: 2px;
-    max-width: 100%;
-}
-.card {
     border-radius: 10px;
     padding: 2px 0.5%;
     transition: 200ms;
 }
-
+.comboimg{
+    border-radius: 100%;
+    padding-top: 2px;
+    max-width: 100%;
+}
 .card:hover {
     transform:scale(1.2) scaleZ(1);
     background-color: hsla(0, 0%, 100%, 0.8) ;
     color: rgb(0, 0, 0);
 }
-
 .container {
     padding: 2px 20px;
 }
-#contact{
-    padding-top: 1%;
-    color: white;
-    background: rgba(255,255,255,0.3);
-    background: linear-gradient(90deg,rgba(255,255,255,0.3) 25%, rgba(255,214,0,0.3) 100%);
-    text-align: center;
-    border-radius: 10px;
-    margin-top: 1%;
-}
-#msg{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.form{
-    width: 30%;
-    text-align: justify;
-}
-input{
-    width: 225px;
-    border-radius: 8px;
-}
-textarea{
-    border-radius: 8px;
-    resize: none;
-}
 #commit{
-    padding-left: 1%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    padding: 2% 2% 4% 2%;
     text-align: center;
-    width: 99%;
-    padding-top: 1%;
-    color: white;
+    width: 100%;
+    color: #ffffff;
     background: rgba(255,255,255,0.3);
     background: linear-gradient(90deg,rgba(255,255,255,0.3) 25%, rgba(255,214,0,0.3) 100%);
     border-radius: 10px;
-    margin-top: 1%;
+    margin-top: 2%;
+
 }
-#comentarios{
-    width: 80%;
-    padding-left: 1%;
-    align-items: center;
-}
-#comentarios ul{
+.users{
     display: flex;
     flex-direction: row;
-    padding: 1%;
-    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
-#commit ul li{
-    list-style: none;
-    border: 1px black solid;
+.user{
+    margin: 0.5%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
     border-radius: 10px;
-    margin-left: 10%;
-    padding: 1%;
-    width: max-content;
-    background-color: rgba(0, 0, 0, 0.219);
+    padding: 2px 0.5%;}
+.userimg{
+    border-radius: 100%;
 }
-
+@media screen and (max-width: 768px) {
+    .hero{
+        flex-direction: column;
+        align-items: center;
+    }
+    #secciones{
+        display: grid;
+        flex-wrap: wrap;
+        background-color: rebeccapurple;
+    }
+    #navitems{
+        padding-right: 40px;
+    }
+}
+@media screen and (max-width: 611px) {
+    
+    nav{
+        flex-direction: column;
+    }
+    .navitems{
+        flex-direction: column;
+    }
+}
