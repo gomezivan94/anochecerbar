@@ -174,10 +174,13 @@ nav{
     #secciones{
         display: grid;
         flex-wrap: wrap;
-        background-color: rebeccapurple;
+        grid-template-columns: repeat(2, 1fr);
     }
     #navitems{
         padding-right: 40px;
+    }
+    .card{
+        width: 80%;
     }
 }
 @media screen and (max-width: 611px) {
