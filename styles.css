@@ -187,8 +187,14 @@ nav{
     
     nav{
         flex-direction: column;
+        position: initial;
+        width: 105%;
     }
     .navitems{
         flex-direction: column;
     }
+    .logo{
+        font-size: 30px;
+    }
+    
 }
