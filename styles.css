@@ -189,6 +189,9 @@ nav{
         flex-direction: column;
         align-items: center;
     }
+    .imghero{
+        width: 100%;
+    }
     #secciones{
         display: grid;
         flex-wrap: wrap;
@@ -211,6 +214,9 @@ nav{
         position: initial;
         width: 105%;
         align-items: center;
+    }
+    .imghero{
+        width: 100%;
     }
     .navitems{
         flex-direction: column;
