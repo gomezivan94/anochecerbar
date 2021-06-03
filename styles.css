@@ -189,6 +189,9 @@ nav{
         flex-direction: column;
         align-items: center;
     }
+    .deshero{
+        width: 100%;
+    }
     .imghero{
         width: 100%;
     }
@@ -214,6 +217,9 @@ nav{
         position: initial;
         width: 105%;
         align-items: center;
+    }
+    .deshero{
+        width: 100%;
     }
     .imghero{
         width: 100%;
