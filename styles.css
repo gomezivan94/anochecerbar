@@ -223,6 +223,10 @@ nav{
     .card{
         width: 80%;
     }
+    .ulfooter{
+        flex-direction: column;
+        align-items: center;
+    }
 }
 @media screen and (max-width: 611px) {
     
