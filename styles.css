@@ -184,6 +184,20 @@ nav{
 .userimg{
     border-radius: 100%;
 }
+#footer{
+    padding: 2% 2% 2% 2%;
+    width: 100%;
+    color: #ffffff;
+    background: rgba(255,255,255,0.3);
+    background: linear-gradient(90deg,rgba(255,255,255,0.3) 25%, rgba(255,214,0,0.3) 100%);
+    border-radius: 10px;
+    margin-top: 2%;
+}
+.ulfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 @media screen and (max-width: 768px) {
     .hero{
         flex-direction: column;
